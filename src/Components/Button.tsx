@@ -3,7 +3,7 @@ import React from "react";
 // Define the props interface
 interface ButtonProps {
   label: string;
-  iconURL?: string; // Made optional since it may not always be passed
+  iconURL?: any; // Made optional since it may not always be passed
   backgroundColor?: string; // Made optional with default styles
   textColor?: string; // Made optional with default styles
   borderColor?: string; // Made optional with default styles

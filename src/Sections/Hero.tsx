@@ -30,7 +30,8 @@ const Hero: React.FC = () => {
           Discover the shoes that contain the Aura, Converse High with our new styles.
         </p>
 
-        <Button label="Shop now" iconURl={arrowRight}/>
+        <Button label="Shop now" iconURL={arrowRight} />
+
         {/* Statistics Section */}
         <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
           {statistics.map((stat) => (
